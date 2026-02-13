@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f23;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.coin {
+    font-size: 120px;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.1s;
+}
+
+.coin:active {
+    transform: scale(1.2);
+}
+
+button {
+    background: #00ff9d;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+button:disabled {
+    background: gray;
+}
