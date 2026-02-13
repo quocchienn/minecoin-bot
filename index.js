@@ -125,7 +125,7 @@ bot.start(async (ctx) => {
     await user.save();
   }
 
-  const webAppUrl = process.env.WEB_APP_URL || 'https://minecoin-bot.onrender.com';
+  const webAppUrl = process.env.WEB_APP_URL || 'https://minecoin-bot.onrender.com/public/index.html';
 
   await ctx.reply(`Chào ${username}! Bắt đầu đào coin nào 🚀`, {
     reply_markup: {
